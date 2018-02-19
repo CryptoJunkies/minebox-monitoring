@@ -10,4 +10,9 @@
 class minebox_monitor (
     Hash $docker,
 ){
+  contain minebox_monitor::install
+  contain minebox_monitor::config
+
+  Class['minebox_monitor::install']
+  -> Class['minebox_monitor::config']
 }
