@@ -1,0 +1,35 @@
+{
+  "name": "cultclassik-minebox_monitor",
+  "version": "0.1.0",
+  "author": "Chris Diehl",
+  "summary": "Installs and configures optional monitoring components for the minebox module",
+  "license": "Apache-2.0",
+  "source": "https://github.com/CryptoJunkies/minebox-monitoring.git",
+  "issues_url": "https://github.com/CryptoJunkies/minebox-monitoring/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "8"
+      ]
+    },
+    {
+      "operatingsystem": "Ubuntu",
+      "operatingsystemrelease": [
+        "16.04"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "name": "puppet",
+      "version_requirement": ">= 4.7.0 < 6.0.0"
+    }
+  ],
+  "pdk-version": "1.3.2",
+  "template-url": "file://C:/PROGRA~1/PUPPET~1/DevelopmentKit/share/cache/pdk-templates.git",
+  "template-ref": "1.3.2-0-g07678c8"
+}
