@@ -124,3 +124,9 @@ extra_gemfiles.each do |gemfile|
   end
 end
 # vim: syntax=ruby
+
+# Install Puppet Strings Ruby Gem
+source ENV['GEM_SOURCE'] || "https://rubygems.org"
+gem "puppet", ENV['PUPPET_GEM_VERSION'] || '~> 4.7.0'
+gem 'puppet-strings'
+gem 'rake'
