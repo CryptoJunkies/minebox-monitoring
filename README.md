@@ -66,7 +66,7 @@ Other Ubuntu and/or Debian versions may work as well but have not been tested.
 
 ## Development
 
-Since your module is awesome, other users will want to play with it. Let them know what the ground rules for contributing are.
+I will take all the help I can get.  Fork it and send me pull requests.
 
 ## Release Notes/Contributors/Etc. **Optional**
 
