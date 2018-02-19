@@ -7,4 +7,5 @@
 # @example
 #   include minebox_monitor::config
 class minebox_monitor::config {
+  contain minebox_monitor::docker::config
 }
