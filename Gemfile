@@ -127,6 +127,8 @@ end
 
 # Install Puppet Strings Ruby Gem
 source ENV['GEM_SOURCE'] || "https://rubygems.org"
-gem "puppet", ENV['PUPPET_GEM_VERSION'] || '~> 4.7.0'
+# Bundler says puppet gem is specified twice with different versions
+# Figure out why and either remove or fix this - cdiehl
+#gem "puppet", ENV['PUPPET_GEM_VERSION'] || '~> 4.7.0'
 gem 'puppet-strings'
 gem 'rake'
