@@ -1,0 +1,10 @@
+docker:
+  swarm:
+    enable: false
+
+minebox_monitor::docker::container::cadvisor::service_name: cadvisor
+minebox_monitor::docker::container::cadvisor::image_name: 'google/cadvisor'
+minebox_monitor::docker::container::cadvisor::storage_driver_user: cadvisor
+minebox_monitor::docker::container::cadvisor::storage_driver_password: cadvisor
+minebox_monitor::docker::container::cadvisor::storage_driver_host: 'undef'
+minebox_monitor::docker::container::cadvisor::port_publish: '8088'
